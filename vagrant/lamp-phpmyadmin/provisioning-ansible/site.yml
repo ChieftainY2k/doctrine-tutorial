@@ -11,7 +11,7 @@
       - {servername: "phpmyadmin.doctrine.dev", documentroot: "/var/www/phpmyadmin", port: "80" }
   tasks:
     - name: setting hostname
-      hostname: name=mysite.dev
+      hostname: name=doctrine.dev
     - name: installing screen
       apt: name=screen state=present
     - name: installing tools
