@@ -21,6 +21,7 @@ class User
      * @var ArrayCollection
      */
     protected $reportedBugs;
+    
     /**
      * @var ArrayCollection
      */
