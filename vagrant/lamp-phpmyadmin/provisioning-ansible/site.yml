@@ -48,6 +48,8 @@
       
     - name: installing mcrypt
       apt: name=mcrypt state=present
+    - name: installing sqlite
+      apt: name=sqlite3 state=present
     - name: installing php modules
       apt: name=php5,php5-mysql,php5-mcrypt,php5-curl,php5-gd,php5-cli,php5-sqlite,php5-xdebug state=present
   

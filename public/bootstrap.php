@@ -23,9 +23,9 @@ $conn = array(
 
 $conn = array(
     'driver' => 'pdo_mysql',
-    'dbname' => 'mydb',
-    'user' => 'user',
-    'password' => 'secret',
+    'dbname' => 'mydatabase',
+    'user' => 'mydbuser',
+    'password' => 'mydbpassword',
     'host' => 'localhost'
 
 );
